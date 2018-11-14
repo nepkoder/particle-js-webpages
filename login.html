@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
-    <!--    bootstrap css file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!--   font awesome css file -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/custom-style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <!--    bootstrap css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--   font awesome css file -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/custom-style.css">
 
 </head>
 
 <body>
-    <div id="particles-js">
+  <div id="particles-js">
+    <div class="jumbotron">
+      <form action="#">
+        <h1>User Login</h1>
+        <div class="login-area">
+          <p>Please provide your details</p>
 
-        <div class="jumbotron">
-            <form action="#">
-                <h1>User Login</h1>
-                <div class="login-area">
-                    <p>Please provide your details</p>
+          <!-- username field -->
+          <div class="field">
+            <input type="text" id="username" value="" placeholder="Username" class="form-control">
+          </div>
 
-                    <!-- username field -->
-                    <div class="field">
-                        <input type="text" id="username" value="" placeholder="Username" class="form-control">
-                    </div>
+          <!--  password field -->
+          <div class="field">
+            <input type="password" id="password" name="password" value="" placeholder="Password" class="form-control">
+          </div>
 
-                    <!--  password field -->
-                    <div class="field">
-                        <input type="password" id="password" name="password" value="" placeholder="Password" class="form-control">
-                    </div>
-
-                </div>
-
-                <!-- end of content of login section here -->
-                <div class="form-actions">
-                    <p class="reset-option">
-                        <a href="#">Forget your password ??</a>
-                    </p>
-                    <a class="btn btn-primary btn-login" href="#">Login</a>
-                </div>
-            </form>
         </div>
 
-        <div class="below-login">
-            <p>Don't have account?
-                <a href="signup.html">Register </a>
-            </p>
+        <!-- end of content of login section here -->
+        <div class="form-actions">
+          <p class="reset-option">
+            <a href="#">Forget your password ??</a>
+          </p>
+          <a class="btn btn-primary btn-login" href="#">Login</a>
         </div>
+      </form>
     </div>
 
-    <!-- Particle JS -->
-    <script type="text/javascript" src="js/particles.min.js"></script>
-    <script type="text/javascript" src="js/particle-app.js"></script>
+    <div class="below-login">
+      <p>Don't have account?
+        <a href="signup.html">Register </a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Particle JS -->
+  <script type="text/javascript" src="js/particles.min.js"></script>
+  <script type="text/javascript" src="js/particle-app.js"></script>
 
 </body>
 
